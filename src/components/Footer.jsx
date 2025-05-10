@@ -41,7 +41,7 @@ export default function Footer() {
             <p className="text-gray-700">velveta.cares@gmail.com</p>
             <p className="text-gray-700 mt-2">
               <a 
-                href="#" 
+                href="https://in.pinterest.com/arunimapandey2020/" 
                 className="hover:text-pink-600 transition"
               >
                 Follow us on Pinterest
