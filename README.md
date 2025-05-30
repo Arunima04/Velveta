@@ -1,10 +1,8 @@
-![image](https://github.com/user-attachments/assets/e2c20ccf-a340-4a6c-bb79-11ae41e62eab)# Velveta 🌸
+ ## "Velveta" 🌸
 
 A visual product discovery platform built with React and Firebase, designed to provide a seamless and intuitive shopping experience through engaging imagery and user-friendly interactions.
 
-[![Charup Screenshot]![Uploading image.png…]()](https://i.postimg.cc/vTg02wY9/Screenshot-2025-05-30-162902.png) 
-
-https://i.postimg.cc/HnXhs1qm/Screenshot-2025-05-30-163100.png
+![image](https://github.com/user-attachments/assets/e2c20ccf-a340-4a6c-bb79-11ae41e62eab)
 
 
 ## ✨ Features
@@ -43,13 +41,14 @@ https://i.postimg.cc/HnXhs1qm/Screenshot-2025-05-30-163100.png
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/charup.git
-cd charup
+git clone https://github.com/your-username/velveta.git
+cd velveta
 ```
 
 2. Install dependencies
-
+```bash
 npm install
+```
 3. Set up Firebase
 
 Create a new Firebase project
@@ -59,19 +58,20 @@ Enable Firestore database
 Copy your config to src/firebase-config.js
 
 4. Run locally
-
+```bash
 npm start
+```
 
 🔥 Deployment
 
 Netlify Hosting
 
 Connect your GitHub repository
-
+```bash
 Set build command: npm run build
 
 Set publish directory: build
-
+```
 🔐 Admin Access
 Visit /admin route
 Manage products and categories
