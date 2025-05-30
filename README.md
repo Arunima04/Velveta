@@ -45,6 +45,7 @@ https://i.postimg.cc/HnXhs1qm/Screenshot-2025-05-30-163100.png
 ```bash
 git clone https://github.com/your-username/charup.git
 cd charup
+```
 
 2. Install dependencies
 
