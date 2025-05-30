@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+![image](https://github.com/user-attachments/assets/e2c20ccf-a340-4a6c-bb79-11ae41e62eab)# Velveta 🌸
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A visual product discovery platform built with React and Firebase, designed to provide a seamless and intuitive shopping experience through engaging imagery and user-friendly interactions.
 
-## Available Scripts
+[![Charup Screenshot]![Uploading image.png…]()](https://i.postimg.cc/vTg02wY9/Screenshot-2025-05-30-162902.png) 
 
-In the project directory, you can run:
+https://i.postimg.cc/HnXhs1qm/Screenshot-2025-05-30-163100.png
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### For Users
+- 🖼️ Pinterest-style masonry grid layout
+- 🔍 Filter products by categories
+- 🛍️ Multiple affiliate links per product
+- 📱 Fully responsive design
 
-### `npm test`
+### For Admins
+- 🔒 Password-protected admin panel
+- ➕ Add/edit/delete products
+- 🏷️ Manage product categories
+- 🔗 Add unlimited affiliate links
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Tech Stack
 
-### `npm run build`
+| Category       | Technology       |
+|----------------|------------------|
+| Frontend       | React 18         |
+| Routing        | React Router v6  |
+| Styling        | Tailwind CSS     |
+| Database       | Firebase Firestore|
+| Hosting        | Firebase Hosting |
+| CI/CD          | GitHub Actions   |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
+- Node.js (v16+)
+- Firebase account
+- Git
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/charup.git
+cd charup
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm install
+3. Set up Firebase
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Create a new Firebase project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Enable Firestore database
 
-## Learn More
+Copy your config to src/firebase-config.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Run locally
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm start
 
-### Code Splitting
+🔥 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Netlify Hosting
 
-### Analyzing the Bundle Size
+Connect your GitHub repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Set build command: npm run build
 
-### Making a Progressive Web App
+Set publish directory: build
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🔐 Admin Access
+Visit /admin route
+Manage products and categories
