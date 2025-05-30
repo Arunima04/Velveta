@@ -27,7 +27,7 @@ A visual product discovery platform built with React and Firebase, designed to p
 | Routing        | React Router v6  |
 | Styling        | Tailwind CSS     |
 | Database       | Firebase Firestore|
-| Hosting        | Firebase Hosting |
+| Hosting        |     Netlify      |
 | CI/CD          | GitHub Actions   |
 
 ## 🚀 Getting Started
